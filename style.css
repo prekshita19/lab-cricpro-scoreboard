@@ -1,5 +1,59 @@
 /* Type your code here */
 
+body{
+	background-image: url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-y: 100px;
+	font-family: sans-serif;
+}
+
+table{
+	height: 50%;
+	width: 100%;
+	padding-left: 80px;
+	border-color: gray;
+}
+
+.headline{
+	text-shadow: 5%;
+}
+
+#matchplayed{
+	color: grey;
+}
+
+a
+{
+	color:lightskyblue;
+	text-decoration:none;
+}
+
+#header>td>div{
+	flex-direction: row;	
+}
+
+.table1row{
+	height:30px;
+	border-top: 0px ;
+	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.tableotherrow
+{	
+	height:30px;
+	/* outline: 1px solid grey; */
+}
+
+.inner{
+	border-top:1px;
+	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	flex-direction: row;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
@@ -7,10 +61,12 @@
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 0px;
 	margin-left: 80px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family: sans-serif;
     font-style: normal;
     
 }
+
+
